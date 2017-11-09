@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "postman-collection": "3.0.3",
+    "util": "^0.10.3"
+  }
+}
