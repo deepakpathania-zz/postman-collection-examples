@@ -10,3 +10,11 @@
     * Fixed in [example 6](https://github.com/deepakpathania/postman-collection-examples//blob/master/example6-createCollection.js)
 5. [Collection variable example](http://www.postmanlabs.com/postman-collection/Collection.html) The `{{apiBaseUrl}}` doesn't resolve to the variable value in the request.
     * Documented in [example 10](https://github.com/deepakpathania/postman-collection-examples//blob/master/example10-collectionVariables.js)
+6. [collection/cookie.js line 32](http://www.postmanlabs.com/postman-collection/collection_cookie.js.html#line32) * @property {String=} [expires] Expires sets an expiry date for when a **coo0kie** gets deleted. It should either be a
+    * `Typo - should be cookie.`
+7. [Cookie create example](http://www.postmanlabs.com/postman-collection/Cookie.html) Missing comma after maxAge property while instantiating `myCookie`.
+    * Fixed in [example 11](https://github.com/deepakpathania/postman-collection-examples//blob/master/example11-cookieCreate.js)
+8. [Header parse example](http://www.postmanlabs.com/postman-collection/Header.html) Assert not defined, strings not being trimmed before matching.
+    * Fixed in [example 15](https://github.com/deepakpathania/postman-collection-examples//blob/master/example15-parseHeaders.js)
+8. [Create header example](http://www.postmanlabs.com/postman-collection/Header.html) `Create a Header` added in the code example block.
+    * Fixed in [example 16](https://github.com/deepakpathania/postman-collection-examples//blob/master/example16-createHeader.js)
