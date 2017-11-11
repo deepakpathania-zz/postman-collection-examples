@@ -14,7 +14,24 @@
     * `Typo - should be cookie.`
 7. [Cookie create example](http://www.postmanlabs.com/postman-collection/Cookie.html) Missing comma after maxAge property while instantiating `myCookie`.
     * Fixed in [example 11](https://github.com/deepakpathania/postman-collection-examples//blob/master/example11-cookieCreate.js)
-8. [Header parse example](http://www.postmanlabs.com/postman-collection/Header.html) Assert not defined, strings not being trimmed before matching.
+8. [Header parse example](http://www.postmanlabs.com/postman-collection/Header.html) `assert` not defined, strings not being trimmed before matching.
     * Fixed in [example 15](https://github.com/deepakpathania/postman-collection-examples//blob/master/example15-parseHeaders.js)
-8. [Create header example](http://www.postmanlabs.com/postman-collection/Header.html) `Create a Header` added in the code example block.
+9. [Create header example](http://www.postmanlabs.com/postman-collection/Header.html) `Create a Header` added in the code example block.
     * Fixed in [example 16](https://github.com/deepakpathania/postman-collection-examples//blob/master/example16-createHeader.js)
+
+10. [Add item to collection example](http://www.postmanlabs.com/postman-collection/Item.html) - Missing `items` in adding to collection syntax(should be `myCollection.items.one("my-folder-1").items.add`), quotes mismatch on `request.url`.
+    * Fixed in [example 17](https://github.com/deepakpathania/postman-collection-examples//blob/master/example17-addItem.js)
+
+11. [Add script to collection example](http://www.postmanlabs.com/postman-collection/Item.html) - Missing `,` after `"id": "my-get-request"`, quotes mismatch in `request.url`. 
+    * Fixed in [example 18](https://github.com/deepakpathania/postman-collection-examples//blob/master/example18-addScript.js)
+
+12. [Add itemGroup to collection example](http://www.postmanlabs.com/postman-collection/ItemGroup.html) - Missing `items` in adding to collection syntax(should be `myCollection.items.add(new ItemGroup({..})`).
+    * Fixed in [example 20](https://github.com/deepakpathania/postman-collection-examples//blob/master/example20-addItemGroup.js)
+
+13. [Sample itemList json](http://www.postmanlabs.com/postman-collection/ItemGroup.html) - Missing quote end in `script` key.
+
+
+14. [ProxyConfig JSON](http://www.postmanlabs.com/postman-collection/ProxyConfig.html) - Invalid JSON, property keys not quoted, missing `,` after `port` key.
+
+15. [VariableScope iteration Example](http://www.postmanlabs.com/postman-collection/VariableScope.html) - Doesn't `require('postman-collection').VariableScope` before using in the example.
+    * Fixed in [example 24](https://github.com/deepakpathania/postman-collection-examples//blob/master/example24-variableScope.js)
